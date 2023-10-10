@@ -3,7 +3,7 @@ on: workflow_dispatch
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: polarbookshop/catalog-service
+  IMAGE_NAME: corlovito/spring_k8s
   VERSION: latest
 
 jobs:
