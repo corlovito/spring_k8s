@@ -1,5 +1,5 @@
 name: Commit Stage
-on: workflow_dispatch
+on: push
 
 env:
   REGISTRY: ghcr.io
