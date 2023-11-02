@@ -11,7 +11,7 @@ import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
 @Component
-@Profile("testdata")
+@Profile("prod")
 public class BookDataLoader {
 
 	private final BookRepository bookRepository;
